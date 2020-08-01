@@ -386,6 +386,13 @@ section:last-child {
 .item1 {
   grid-area: header;
 }
+.item2{
+    grid-area: sub1;
+}
+.item3{
+    grid-area: sub2;
+}
+
 .lefter {
   grid-area: lefter;
   background-color: #2196f3;
@@ -419,6 +426,14 @@ section:last-child {
   background-color: white;
   padding: 10px;
 }
+
+.grid-container3 {
+    display: grid;
+    grid-template-areas: "sub1 sub2";
+    background-color: white;
+    padding: 10px;
+  }
+
 
 .grid-container2 {
   display: grid;
