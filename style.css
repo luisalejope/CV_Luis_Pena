@@ -88,7 +88,9 @@ nav,
 section {
   display: block;
 }
-
+p{
+  text-align: justify;
+}
 html,
 body {
   background: #181818;
@@ -101,6 +103,12 @@ body {
   clear: both;
 }
 
+.info{
+  margin-left: 70px;
+  margin-right: 10px;
+  justify-content: right;
+  
+}
 p {
   font-size: 1em;
   line-height: 1.4em;
@@ -113,6 +121,7 @@ p {
   max-width: 930px;
   background: #f3f3f3;
   margin: 30px auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .mainDetails {
@@ -139,16 +148,16 @@ p {
 }
 
 #imag {
-  width: 90.5%;
+  width: 50.5%;
   float: right;
-  margin-right: 30px;
-  margin-top: 30px;
+  margin-right: 40px;
+  margin-top: 50px;
 }
 
 #imag img {
   width: 100%;
   height: auto;
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
 #name {
@@ -383,71 +392,38 @@ section:last-child {
   }
 }
 
-.item1 {
-  grid-area: header;
-}
-.item2{
-    grid-area: sub1;
-}
-.item3{
-    grid-area: sub2;
-    padding-left: 10%;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color:white;
+  padding: 10px;
 }
 
-.lefter {
-  grid-area: lefter;
-  background-color: #2196f3;
-  text-align: center;
-  padding: 20px;
-  font-size: 30px;
+
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 3;
+  background-color:  #2196F3;
+  justify-content: start;
+  color: white ;
 }
-.exp {
-  grid-area: exp;
+.item2 {
+  grid-column: 3 / span 3;
 }
-.edu {
-  grid-area: edu;
-}
-.fecha1 {
-  grid-area: fecha1;
-}
-.acont4 {
-  grid-area: acont;
+
+.item4 {
+  grid-column: 3 / span 2;
 }
 .item5 {
-  grid-area: footer;
+  grid-column: 5 / span 2;
 }
-
-.grid-container1 {
-  display: grid;
-  grid-template-areas:
-    "lefter header header header header"
-    "lefter exp exp exp exp"
-    "lefter edu edu edu edu";
-  grid-gap: 10px;
-  background-color: white;
-  padding: 10px;
+.item6 {
+  grid-column: 3 / span 2;
 }
-
-.grid-container3 {
-    display: grid;
-    grid-template-areas: "sub1 sub2";
-    background-color: white;
-    padding: 10px;
-  }
-
-
-.grid-container2 {
-  display: grid;
-  grid-template-areas: "fecha1 acont";
-  background-color: white;
-  padding: 10px;
-}
-
-.grid-container2 > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.item7 {
+  grid-column: 5 / span 2;
 }
 
 .delayOne {
