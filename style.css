@@ -391,7 +391,7 @@ section:last-child {
 }
 .item3{
     grid-area: sub2;
-    padding: 10%;
+    padding-left: 10%;
 }
 
 .lefter {
