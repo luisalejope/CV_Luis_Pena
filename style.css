@@ -139,7 +139,7 @@ p {
 }
 
 #imag {
-  width: 12.5%;
+  width: 90.5%;
   float: right;
   margin-right: 30px;
   margin-top: 30px;
@@ -391,6 +391,7 @@ section:last-child {
 }
 .item3{
     grid-area: sub2;
+    padding: 10%;
 }
 
 .lefter {
