@@ -155,8 +155,8 @@ p {
 #imag {
   width: 50.5%;
   float: right;
-  margin-right: 50px;
-  margin-top: 30px;
+  margin-right: 20%;
+  margin-top: 20%;
 }
 
 #imag img {
@@ -168,8 +168,8 @@ p {
 #imag2 {
   width: 90.5%;
   float: right;
-  margin-left: 50px;
-  margin-top: 30px;
+  margin-left: 10%;
+  margin-top: 0px;
 }
 
 #imag2 img {
